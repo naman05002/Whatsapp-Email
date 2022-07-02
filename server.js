@@ -1,7 +1,7 @@
 const http = require('http');
 const express = require('express');
 const port = process.env.PORT||3000;
-
+console.log(process.env)
 const { ImapFlow } = require('imapflow');
 
 const MessagingResponse = require('twilio').twiml.MessagingResponse;
